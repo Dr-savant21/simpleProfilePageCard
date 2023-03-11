@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+    background: linear-gradient(blueviolet, rgb(224,46,108)) no-repeat;
+}
+.container{
+    margin: 120px auto 50px;
+    background-color: white;
+    width: 45%;
+    text-align: center;
+    box-shadow: -1px 1px 6px 4px rgba(0, 0, 0, 0.25), -1px 1px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+}
+.img{
+    width: 25%;
+    margin: auto;
+    border: 3px solid blueviolet;
+    border-radius: 100%;
+    height: 150px;
+    position: absolute;
+    top: -20%;
+    left: 38%;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    border-radius: 100%;
+}
+.desc-text{
+    padding-top: 70px;
+}
+.desc-text h2{
+    color: blueviolet;
+    margin: 1.2rem auto 0.9rem;
+}
+.desc-text p{
+    margin: 0;
+    font-weight: 550;
+}
+.desc-text p span{
+    color: #777;
+}
+.desc-text .location{
+    margin-top: 1rem;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.activity{
+    margin: 2rem auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.activity span{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.activity p{
+    color: #777;
+    font-size: 0.8rem;
+    margin: 8px auto auto;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+button{
+    padding: 0.8rem 2.4rem;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.message{
+    background-color: rgb(112, 112, 238);
+    box-shadow: -1px 1px 2px rgb(112, 112, 238, 0.2), -1px 1px 4px rgb(112, 112, 238, 0.2);
+}
+.follow{
+    background: linear-gradient(rgb(243, 68, 68), rgba(184, 14, 14, 0.712));
+    box-shadow: -1px 1px 2px rgb(112, 112, 238, 0.2), -1px 1px 4px rgb(112, 112, 238, 0.2);
+}
+.social-icons{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 5px;
+}
+.social-icons i{
+    width: 20px;
+    border-radius: 100%;
+    height: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
